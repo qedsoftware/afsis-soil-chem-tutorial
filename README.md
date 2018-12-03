@@ -10,36 +10,36 @@ This dataset contains field and laboratory data collected through the Africa Soi
 
 The folders contained in this archive are as follows:
 
-	.
-	├── LICENSE.txt
-	├── Georeferences
-	├── Dry_Chemistry
-	│   └── ICRAF
-	│   	 ├── Bruker_Alpha_KBr
-	│   	 ├── Bruker_Alpha_ZnSe
-	│   	 ├── Bruker_HTSXT
-	│		 ├── Bruker_MPA
-	│		 ├── Bruker_TXRF
-	│		 └── SOP
-	└── Wet_Chemistry
-    	├── ICRAF
-		│	 ├── Carbon_and_Nitrogen
-		│	 ├── LDPSA
-		│	 ├── Soil_Moisture
-		│	 └── SOP
-    	├── CROPNUTS
-		│	 ├── Carbon_and_Nitrogen
-		│	 ├── LDPSA
-		│	 ├── Soil_Moisture
-		│	 ├── Mehlich_3
-		│	 └── SOP
-    	└── Rothamsted_Research   	
-			 ├── Carbon_and_Nitrogen
-			 ├── LDPSA
-			 ├── Soil_Moisture
-			 ├── Mehlich_3
-			 └── SOP
-		
+    .
+    ├── LICENSE.txt
+    ├── Georeferences
+    ├── Dry_Chemistry
+    │   └── ICRAF
+    │        ├── Bruker_Alpha_KBr
+    │        ├── Bruker_Alpha_ZnSe
+    │        ├── Bruker_HTSXT
+    │        ├── Bruker_MPA
+    │        ├── Bruker_TXRF
+    │        └── SOP
+    └── Wet_Chemistry
+        ├── ICRAF
+        │    ├── Carbon_and_Nitrogen
+        │    ├── LDPSA
+        │    ├── Soil_Moisture
+        │    └── SOP
+        ├── CROPNUTS
+        │    ├── Carbon_and_Nitrogen
+        │    ├── LDPSA
+        │    ├── Soil_Moisture
+        │    ├── Mehlich_3
+        │    └── SOP
+        └── Rothamsted_Research     
+             ├── Carbon_and_Nitrogen
+             ├── LDPSA
+             ├── Soil_Moisture
+             ├── Mehlich_3
+             └── SOP
+        
 A quick overview of the contents:
 
 * The CSV in the `Georeferences` table describes the places and times where soil samples were taken by field teams. In this dataset, we only include samples for which there exist *both* wet and dry chemistry measurements.
