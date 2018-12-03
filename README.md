@@ -31,13 +31,11 @@ The folders contained in this archive are as follows:
         │    └── SOP
         ├── CROPNUTS
         │    ├── Carbon_and_Nitrogen
-        │    ├── LDPSA
         │    ├── Soil_Moisture
         │    ├── Mehlich_3
         │    └── SOP
         └── Rothamsted_Research     
              ├── Carbon_and_Nitrogen
-             ├── LDPSA
              ├── Soil_Moisture
              ├── Mehlich_3
              └── SOP
