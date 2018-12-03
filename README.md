@@ -34,24 +34,23 @@ The folders contained in this archive are as follows:
         │    ├── Soil_Moisture
         │    ├── Mehlich_3
         │    └── SOP
-        └── Rothamsted_Research     
+        └── RRES
              ├── Carbon_and_Nitrogen
              ├── Soil_Moisture
              ├── Mehlich_3
              └── SOP
-        
+
 A quick overview of the contents:
 
 * The CSV in the `Georeferences` table describes the places and times where soil samples were taken by field teams. In this dataset, we only include samples for which there exist *both* wet and dry chemistry measurements.
 
-* The chemistry is partitioned into two subfolders: dry chemistry (e.g., infrared spectroscopy, x-ray fluorescence), and wet chemistry. There are then nested subfolders for each lab that performed measurements of the data. 
+* The chemistry is partitioned into two subfolders: dry chemistry (e.g., infrared spectroscopy, x-ray fluorescence), and wet chemistry. There are then nested subfolders for each lab that performed measurements of the data.
 
-* Folders starting with "Bruker_" contain dry chemistry measuremements usually stored in the OPUS binary format, which can be unpacked either by using the Bruker OPUS Lab software, or the [brukeropusreader](https://github.com/qedsoftware/brukeropusreader) Python package. 
+* Folders starting with "Bruker_" contain dry chemistry measuremements usually stored in the OPUS binary format, which can be unpacked either by using the Bruker OPUS Lab software, or the [brukeropusreader](https://github.com/qedsoftware/brukeropusreader) Python package.
 
 * Other folders, such as `Carbon_and_Nitrogen`, `LDPSA`, `Soil_Moisture`, and `Wet_Chemistry`, contain CSV files.
 
 * The SOP folders contain documents describing the protocols that each lab followed to conduct their chemistry measurements. For exmaple, the SOPs used by ICRAF were sourced from here: [ICRAF Soil Plant Spectral Diagnostics Lab SOPs](http://www.worldagroforestry.org/sd/landhealth/soil-plant-spectral-diagnostics-laboratory/sops)
-
 
 
 ## Laboratory Protocols
@@ -82,7 +81,7 @@ The makes and models of laboratory machines used for taking these measurements a
 
 ## Historical Context
 
-Soil is vital to life on Earth. It is our natural reservoir for storing and moving all the nutrients, liquids, and gases needed for life, including 90% of all water for food production, and 2300 Gigatons of organic carbon. And yet, while humankind has depended on soil since the beginning of civilization, we still know extremely little about it. In most parts of the world, both the public and private agricultural sectors remain extremely uninformed about the nutrient content and overall health of the soil beneath our feet. 
+Soil is vital to life on Earth. It is our natural reservoir for storing and moving all the nutrients, liquids, and gases needed for life, including 90% of all water for food production, and 2300 Gigatons of organic carbon. And yet, while humankind has depended on soil since the beginning of civilization, we still know extremely little about it. In most parts of the world, both the public and private agricultural sectors remain extremely uninformed about the nutrient content and overall health of the soil beneath our feet.
 
 The Africa Soil Information Service (AfSIS) was created to address this information gap in Africa and develop clever strategies for collecting the missing soil data. We focus on Africa because the future of the continent depends on Africa’s agricultural growth, and Africa’s soils are enduring widespread nutrient depletion and erosion. The data scarcity problem in Africa is also exceptional --- prior to the AfSIS project, the amount of publicly available soil chemistry data across the continent of Africa is no more than 18533 samples. (See [QED: Legacy African Soil Data, Descriptive Statistics](https://africa-legacy-soil-data.qed.ai) for more details.)
 
@@ -106,7 +105,6 @@ All data is shared using the ODC-By license referenced at LICENSE.txt, and shoul
 We thank all our partners for their tireless contributions to the AfSIS project.
 
 
-
 # Future Work
 
 In the future we plan to extend this dataset in the following ways:
@@ -116,5 +114,5 @@ In the future we plan to extend this dataset in the following ways:
 
 
 # Contact
- 
+
 Point of Contact: William Wu <w@qed.ai> | QED | https://qed.ai
