@@ -30,7 +30,12 @@ The makes and models of laboratory machines used for taking these measurements a
 | MPA | Bruker Multi-Purpose Analyzer \_FT-NIR |
 | TXRF | Bruker Picofox S2 |
 | Carbon and Nitrogen | Thermo Scientific Flash 2000 Organic Elemental Analyzer |
+
 | Soil Moisture |  Eijelkamp Sandbox Agrisearch Equipment |
+
+The standard operating procedures for using the machines are listed here:
+
+    http://www.worldagroforestry.org/sd/landhealth/soil-plant-spectral-diagnostics-laboratory/sops
 
 
 # Acknowledgments
