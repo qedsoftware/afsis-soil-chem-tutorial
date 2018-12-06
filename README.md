@@ -3,7 +3,7 @@
 
 # Short Description
 
-This dataset contains field and laboratory data collected through the Africa Soil Information Service (AfSIS) project, which lasted from 2009 through 2018. In this initial release, we are including data collected during Phase I, which spanned from 2009 through 2013. Georeferenced soil samples were collected from many countries throughout Sub-Saharan Africa, and their nutrient content was analyzed using *both* wet chemistry (e.g. Mehlich-3) and dry chemistry (e.g., infrared spectroscopy, x-ray fluorescence). The two types of data can be paired to form a training dataset for machine learning, such that certain wet chemistry nutrients can be well predicted from dry chemistry.
+This dataset contains field and laboratory data collected through the Africa Soil Information Service (AfSIS) project, which lasted from 2009 through 2018. In this initial release, we are including data collected during Phase I, which spanned from 2009 through 2013. Georeferenced soil samples were collected from many countries throughout Sub-Saharan Africa, and their nutrient content was analyzed using *both* wet chemistry (e.g. Mehlich-3) and dry chemistry (e.g., infrared spectroscopy, x-ray fluorescence). The two types of data can be paired to form a training dataset for machine learning, such that certain nutrients measured by wet chemical analyses can be well predicted from dry chemistry.
 
 
 # Detailed Description
@@ -99,6 +99,7 @@ AfSIS has been an enormous undertaking made possible through the joint efforts o
 * [Center for International Earth Science Information Network (CIESIN)](http://ciesin.org)
 * [The International Center for Tropical Agriculture (CIAT)](https://ciat.cgiar.org/)
 * [Crop Nutrition Laboratory Services (CROPNUTS)](https://cropnuts.com/)
+* [Rothamsted Research (RRES)](https://www.rothamsted.ac.uk/)
 
 All data is shared using the ODC-By license referenced at LICENSE.txt, and should be attributed to the Africa Soil Information Service (AfSIS).
 
