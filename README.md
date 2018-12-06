@@ -31,11 +31,13 @@ The folders contained in this archive are as follows:
         │    └── SOP
         ├── CROPNUTS
         │    ├── Carbon_and_Nitrogen
+        │    ├── pH_Hp_EC
         │    ├── Soil_Moisture
         │    ├── Mehlich_3
         │    └── SOP
         └── RRES
              ├── Carbon_and_Nitrogen
+             ├── pH_Hp_EC
              ├── Soil_Moisture
              ├── Mehlich_3
              └── SOP
