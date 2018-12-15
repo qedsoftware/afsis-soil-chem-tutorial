@@ -75,7 +75,7 @@ Lastly, a comment about folder organization. One may ask why we have taken diffe
 
 
 
-## Laboratory Protocols
+## Laboratory Machines
 
 The makes and models of laboratory machines used for taking these measurements are shown below:
 
