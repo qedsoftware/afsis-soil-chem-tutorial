@@ -1,4 +1,4 @@
-# AfSIS Soil Chemistry Data
+# AfSIS Soil Chemistry Data - Tutorial
 ---
 
 # Short Description
@@ -10,7 +10,7 @@ The dataset hosted at `arn:aws:s3:::afsis` contains field and laboratory measure
 
 ## Standards for Inclusion
 
-To maximize the utility of the data for spectral inference and geospatial mapping, we are only including data satisfying the following constraints:
+To maximize the utility of this dataset for spectral inference and geospatial mapping, we are _only_ including data satisfying the following constraints:
 
 * The soil sample corresponding to this measurement can be associated with a georeference inside Africa.
 * A dry chemistry measurement is included only if there exists some wet chemistry measurement of the same soil sample.
@@ -23,34 +23,34 @@ The chemical analyses of soils were performed by three different labs, all ISO/I
 
 We are partitioning the data into two sets: 2009-2013 (Phase I), and 2014-2018 (Phase II, pending).  The folders contained in the archive are as follows:
 
-.
-├── 2009-2013
-│   ├── Dry_Chemistry
-│   │   └── ICRAF
-│   │       ├── Bruker_Alpha_KBr
-│   │       ├── Bruker_Alpha_ZnSe
-│   │       ├── Bruker_HTSXT
-│   │       ├── Bruker_MPA
-│   │       ├── Bruker_TXRF
-│   │       └── SOP
-│   ├── Georeferences
-│   │   └── georeferences.csv
-│   ├── LICENSE.txt
-│   ├── README.md
-│   └── Wet_Chemistry
-│       ├── CROPNUTS
-│       │   ├── README.md
-│       │   ├── SOP
-│       │   └── Wet_Chemistry_CROPNUTS.csv
-│       ├── ICRAF
-│       │   ├── README.md
-│       │   ├── SOP
-│       │   └── Wet_Chemistry_ICRAF.csv
-│       └── RRES
-│           ├── README.md
-│           ├── SOP
-│           └── Wet_Chemistry_RRES.csv
-└── 2014-2018 (pending)
+    .
+    ├── 2009-2013
+    │   ├── Dry_Chemistry
+    │   │   └── ICRAF
+    │   │       ├── Bruker_Alpha_KBr
+    │   │       ├── Bruker_Alpha_ZnSe
+    │   │       ├── Bruker_HTSXT
+    │   │       ├── Bruker_MPA
+    │   │       ├── Bruker_TXRF
+    │   │       └── SOP
+    │   ├── Georeferences
+    │   │   └── georeferences.csv
+    │   ├── LICENSE.txt
+    │   ├── README.md
+    │   └── Wet_Chemistry
+    │       ├── CROPNUTS
+    │       │   ├── README.md
+    │       │   ├── SOP
+    │       │   └── Wet_Chemistry_CROPNUTS.csv
+    │       ├── ICRAF
+    │       │   ├── README.md
+    │       │   ├── SOP
+    │       │   └── Wet_Chemistry_ICRAF.csv
+    │       └── RRES
+    │           ├── README.md
+    │           ├── SOP
+    │           └── Wet_Chemistry_RRES.csv
+    └── 2014-2018 (pending)
 
 Below is a quick overview of the contents:
 
